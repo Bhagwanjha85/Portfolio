@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html>
+
+    <style>
+        .navpage {
+            overflow: auto;
+            white-space: nowrap;
+            text-align: right;
+
+            width: 100%;
+
+        }
+
+        .navpage a {
+            display: inline-block;
+            padding: 5px;
+            color: white;
+        }
+
+        .navpage a:hover {
+
+            border-radius: 50px;
+            border-width: 1px;
+            border-style: solid;
+            color: pink;
+            padding: 5px 10px;
+            border-color: blue;
+        }
+    </style>
+
+
+
+
+    <head>
+        <meta charset="utf-8">
+
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+        <meta name="viewport" content="width=device-width">
+        <title>Shoping Website </title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </head>
+
+    <body>
+
+
+
+
+        <header style="font-size:10px; background-image: url('cake.jpg'); padding:30px;">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+
+
+
+                <nav class="navpage">
+
+
+
+                    <button
+                        class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
+                        style="background:white; color:navy; border-color:blue; border-width:3px; border-radius:10px;">
+                        <font style="background:white; color:navy; ">Login </font>
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </button>
+
+
+
+                    <button
+                        class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
+                        style="background:navy; color:white; border-color:navy; border-width:3px; border-radius:10px;">
+                        <font style="background:navy; color:white; "> Sinup </font>
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </button>
+
+
+
+
+
+                    <a class="mr-5 hover:text-gray-900">First Link</a>
+                    <a class="mr-5 hover:text-gray-900">Second Link</a>
+                    <a class="mr-5 hover:text-gray-900">Third Link</a>
+                    <a class="mr-5 hover:text-gray-900">Fourth Link</a>
+                    <a class="mr-5 hover:text-gray-900">Third Link</a>
+                    <a class="mr-5 hover:text-gray-900">Fourth Link</a>
+                    <a class="mr-5 hover:text-gray-900">Third Link</a>
+                    <a class="mr-5 hover:text-gray-900">Fourth Link</a>
+
+
+
+
+
+                </nav>
+            </div>
+        </header>
+
+
+
+
+
+
+
+
+
+        <div class="flex justify-center ">
+
+            <nav class="self-center w-full max-w-10xl ">
+
+                <div class="flex flex-col justify-around items-center md:items-start border-b-2">
+
+
+                    <h1 class="uppercase py-4 text-2xl  font-sans font-bold px-10">
+                        <img src="mylogo.jpg" alt="company logo" style=" width:50px;  height:auto;  border-radius:50%;"
+                            Jupiter /> Jupiter
+
+                        <font style="font-family:fantasy ; "> Dining </font>
+                    </h1>
+
+
+                    <ul class="flex items-center text-sm md:text-[18px] font-bold md:px-10">
+
+                        <li
+                            class="hover:underline underline-offset-4 decoration-2 decoration-cyan-500 py-2 rounded-lg px-2 md:px-5">
+                            <a href="#">Home</a> </li>
+
+
+
+
+
+                        <div class="container">
+
+                            <div class="dropdown">
+
+                                <li
+                                    class="hover:underline underline-offset-4 decoration-2 decoration-cyan-500 py-4 rounded-lg px-2 md:px-5">
+                                    <a href="#Food" type="button" data-toggle="dropdown">Food
+                                        </>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Northern Indian Food </a></li>
+                                            <li><a href="#">Southern Indian Food</a></li>
+                                            <li><a href="#">Eastern Indian Food </a></li>
+                                            <li><a href="#">Western Indian Food </a></li>
+                                        </ul>
+                                </li>
+                            </div>
+
+                        </div>
+
+
+
+                        <li
+                            class="hover:underline underline-offset-4 decoration-2 decoration-cyan-500 py-2 rounded-lg px-2 md:px-5">
+                            <a href="#"> Contributor</a> </li>
+
+                        <li
+                            class="hover:underline underline-offset-4 decoration-2 decoration-cyan-500 py-2 rounded-lg px-2 md:px-5">
+                            <a href="#"> Offers</a> </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+        <br>
+
+
+
+       
+        <div class="scrollmenu" style="margin:15px; padding:15px; ">
+
+
+
+
+            <div class="flex-col px-6 w-auto md:w-40 py-2 bg-gray-300 rounded-2xl" style="padding:10px;  margin:10px;">
+                <div class="h-28 w-28 rounded-full overflow-hidden bg-gray-200">
+                    <img src="nor.webp" alt="" class="" />
+                </div>
+                <div class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">North Indian </div>
+
+            </div>
+
+
+
+
+
+            <div class="flex-col px-6 w-auto md:w-40 py-2 ml-3 md:ml-0 bg-gray-300 rounded-2xl"
+                style="padding:10px;  margin:10px;">
+                <div class="h-28 w-28 rounded-full overflow-hidden bg-gray-200">
+                    <img src="https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png"
+                        alt="biryani" class="" />
+                </div>
+                <div class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">Biryani delivery
+                </div>
+            </div>
+
+            <div class="flex-col px-6 w-auto md:w-40 py-2 bg-gray-300 rounded-2xl" style="padding:10px;  margin:10px;">
+                <div class="h-28 w-28 rounded-full overflow-hidden bg-gray-200">
+                    <img src="https://b.zmtcdn.com/data/dish_images/c2f22c42f7ba90d81440a88449f4e5891634806087.png"
+                        alt="rolls" class="" />
+                </div>
+                <div class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">Rolls delivery
+                </div>
+            </div>
+
+            <div class="flex-col px-60 w-auto md:w-40 py-2 bg-gray-300 rounded-2xl" style="padding:10px;  margin:10px;">
+                <div class="h-28 w-28 rounded-full overflow-hidden bg-gray-200">
+                    <img src="momo.jpeg" alt="momos" class="" />
+                </div>
+                <div class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">Momo delivery </div>
+
+            </div>
+
+            <div class="flex-col px-6 w-auto md:w-40 py-2 bg-gray-300 rounded-2xl" style="padding:12px;  margin:10px;">
+                <div class="h-28 w-28 rounded-full overflow-hidden bg-gray-200">
+                    <img src="https://b.zmtcdn.com/data/dish_images/e44c42ff4b60b025225c8691ef9735b11635781903.png"
+                        alt="paneer" class="" />
+                </div>
+                <div class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">Paneer delivery
+                </div>
+
+            </div>
+
+            <div class="flex-col px-6 w-auto md:w-40 py-2 bg-gray-300 rounded-2xl" style="padding:10px;  margin:10px;">
+                <div class="h-28 w-28 rounded-full overflow-hidden bg-gray-200">
+                    <img src="https://b.zmtcdn.com/data/o2_assets/52eb9796bb9bcf0eba64c643349e97211634401116.png"
+                        alt="thali" class="" />
+                </div>
+                <div class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">Thali delivery
+                </div>
+            </div>
+
+            <div class="flex-col px-6 w-auto md:w-40 py-2 bg-gray-300 rounded-2xl"
+                style="padding:10px;  margin:10px;  size: 100px 100px;">
+                <div class="h-28 w-28 rounded-full overflow-hidden bg-gray-200">
+                    <img src="https://b.zmtcdn.com/data/dish_images/91c554bcbbab049353a8808fc970e3b31615960315.png"
+                        alt="noodle" class="" />
+                </div>
+                <div class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">Noodles delivery
+                </div>
+            </div>
+
+            <div class="flex-col px-6 w-auto md:w-40 py-2 bg-gray-300 rounded-2xl" style="padding:10px;  margin:10px;">
+                <div class="h-28 w-28 rounded-full overflow-hidden bg-gray-200">
+                    <img src="https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png"
+                        alt="pizza" class="" />
+                </div>
+                <div class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">Pizza Delivery
+                </div>
+
+            </div>
+
+            <div class="flex-col px-6 w-auto md:w-40 py-2 bg-gray-300 rounded-2xl" style="padding:10px; margin:10px; ">
+                <div class="h-28 w-28 rounded-full overflow-hidden bg-gray-200">
+                    <img src="https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png"
+                        alt="chicken" class="" />
+                </div>
+                <div class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">Chicken delivery
+                </div>
+
+            </div>
+
+            <div class="flex-col px-6 w-auto md:w-40 py-2 bg-gray-300 rounded-2xl" style="padding:10px;  margin:10px; ">
+                <div class="h-28 w-28 rounded-full overflow-hidden bg-gray-200">
+                    <img src="https://source.unsplash.com/324x324/?cake" alt="cake" class="" />
+                </div>
+                <div class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">Cake delivery </div>
+
+            </div>
+
+            <div class="flex-col px-6 w-auto md:w-40 py-2 bg-gray-300 rounded-2xl" style="padding:10px;  margin:10px; ">
+                <div class="h-28 w-28 rounded-full overflow-hidden bg-gray-200">
+                    <img src="https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png"
+                        alt="burger" class="" />
+                </div>
+                <div class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">Burger delivery
+                </div>
+
+            </div>
+
+
+
+            <div class="flex-col px-6 w-auto md:w-40 py-2 bg-gray-300 rounded-2xl" style="padding:10px;  margin:10px;">
+                <div class="h-28 w-28 rounded-full overflow-hidden bg-gray-200">
+                    <img src="https://b.zmtcdn.com/data/o2_assets/8dc39742916ddc369ebeb91928391b931632716660.png"
+                        alt="dosa" class="" />
+                </div>
+                <div class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">Dosa delivery </div>
+
+            </div>
+
+
+            <div class="flex-col px-6 w-auto md:w-40 py-2 bg-gray-300 rounded-2xl" style="padding:10px;  margin:10px;">
+                <div class="h-28 w-28 rounded-full overflow-hidden bg-gray-200">
+                    <img src="gulab.jpg" alt="lalmohan" class="" />
+                </div>
+                <div class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">Gulab Jamun </div>
+
+            </div>
+
+
+            <div class="flex-col px-6 w-auto md:w-40 py-2 bg-gray-300 rounded-2xl" style="padding:10px;  margin:10px;">
+                <div class="h-28 w-28 rounded-full overflow-hidden bg-gray-200">
+                    <img src="poha.jpeg" alt="poha" class="" />
+                </div>
+                <div class="text-lg font-medium text-stone-600 cursor-pointer hover:text-stone-400">Poha delivery </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Contact  form -->
+
+        <form action="https://formspree.io/f/mzbqzerk" method="POST">
+
+            <div class="flex justify-center" style="width:100%; font-size:15px;">
+
+                <div class="w-4/5 my-5 mx-auto flex flex-col items-center md:flex-row ">
+                    <div class="border w-[70%] h-full  text-white p-10"
+                        style="background-image: url('https://source.unsplash.com/random/500x500/?foods');"
+                        style=" border-radius:20px;">
+                        <span>
+                            <h1 class="text-3xl font-semibold text-center mb-4 text-yellow-300">Contact Us</h1>
+                            <p class="text-xs font-normal mt-2 text-center">Contact us by filling this contact form.
+                            </p>
+                        </span>
+                        <div class="mt-6 leading-7 text-center "> <input type="text" name="" placeholder="Full Name"
+                                id=""
+                                class="border-b-2 w-[80%] mb-4 p-1 border-b-black  text-green-400 placeholder:text-black placeholder:opacity-80 text-sm  focus:outline-none">
+                            <input type="email" name="" placeholder="Email Address" id=""
+                                class="border-b-2 w-[80%] mb-4 p-1 border-b-white  text-green-400 placeholder:text-black placeholder:opacity-80 text-sm  focus:outline-none">
+                            <input type="tel" name="phone" placeholder="Phone Number" id="phone"
+                                class="border-b-2 w-[80%] mb-4 p-1 border-b-white text-green-400 placeholder:text-black placeholder:opacity-80 text-sm  focus:outline-none">
+                            <textarea id="message" name="message" placeholder="Write us a query"
+                                class="w-[80%]  border-2 border-white h-44 text-sm outline-none placeholder:text-black 
+ text-green-400 placeholder:opacity-80 py-1 px-2 mt-6 resize-none leading-6 duration-200 ease-in-out rounded-lg"></textarea>
+
+                            <button
+                                class="block m-auto w-[60%] md:w-[50%] text-center border bg-yellow-300 rounded-full py-1 mt-6 text-lg font-bold tracking-wide uppercase text-white brightness-105 hover:bg-yellow-400">Send</button>
+                        </div>
+                    </div>
+
+
+                    <div class="border w-[70%] md:w-[40%]  items-center flex flex-col justify-center leading-7 space-y-8 p-8 h-full"
+                        style="background-image: url('https://source.unsplash.com/random/500x500/?burger');">
+                        <b></b>
+                        <div style="color:white; font-size:25px;">JUPITER DINING</div><b></b>
+                        <p class="text-white">If any type of doubt occur on this site you connected my team members and
+                            also give a feedback through the message. I can help your queries shortly. </p>
+                    </div>
+                </div>
+            </div>
+            <script src="https://cdn.tailwindcss.com"></script>
+
+
+            <br><br><br>
+
+
+            <!------ Login Page ------>
+
+            <form action="https://formspree.io/f/mzbqzerk" method="POST">
+
+
+
+
+                <div class="flex justify-center">
+                    <div
+                        class="flex flex-col justify-center items-center md:flex-row shadow rounded-xl max-w-7xl w-[90%] m-2">
+                        <div class=" w-full md:w-3/4">
+                            <div
+                                class="text-xl cursor-pointer flex flex-col justify-center items-center mt-5 md:mt-0 py-4">
+                                <h1 class="font-semibold text-xl md:text-5xl text-gray-600 m-2">Login to your account
+                                </h1>
+                                <h1 class="text-sm font-medium text-gray-600 m-2">Login using Social accounts</h1>
+                                <div class="text-lg lg:text-xl text-center space-x-5 m-2"> <a href="#"> <i
+                                            class="fa-brands fa-facebook-f text-white bg-blue-500 rounded-full px-[14px] py-[10px] "></i>
+                                    </a> <a href="#"> <i
+                                            class="fa-brands fa-twitter text-white bg-cyan-400 rounded-full px-[10px] py-[10px] "></i>
+                                    </a> <a href="#"> <i
+                                            class="fa-brands fa-google-plus-g text-white bg-red-500 rounded-full px-[10px] py-[10px] "></i>
+                                    </a> </div>
+                                <h1 class="text-sm font-medium text-gray-600 m-2">OR</h1>
+                            </div>
+                            <div class="flex flex-col justify-center items-center m-2 space-y-6 md:space-y-8">
+                                <div class=""> <input type="text" placeholder="User Name"
+                                        class=" bg-gray-100 rounded-lg px-5 py-2 focus:border border-blue-600 focus:outline-none text-black placeholder:text-gray-600 placeholder:opacity-50 font-semibold md:w-72 lg:w-[340px]">
+                                </div>
+                                <div class=""> <input type="password" placeholder="Password"
+                                        class=" bg-gray-100 rounded-lg px-5 py-2 focus:border border-blue-600 focus:outline-none text-black placeholder:text-gray-600 placeholder:opacity-50 font-semibold md:w-72 lg:w-[340px]">
+                                </div>
+                            </div>
+                            <div class="text-center mt-7"> <button
+                                    class=" px-24 md:px-[118px] lg:px-[140px] py-2 rounded-md text-white bg-gradient-to-l from-blue-400 to-emerald-400 font-medium m-2 mb-6 ">Sign
+                                    In</button> </div>
+                        </div>
+                        <div
+                            class="h-[100%] w-full md:w-1/3 bg-gradient-to-l from-blue-400 to-emerald-400 items-center flex justify-center">
+                            <div class="text-white text-base font-semibold text-center my-10 space-y-2 m-2">
+                                <h1 class="text-5xl">New Here?</h1>
+                                <h1 class="">Sign Up and discover new oppurtinities here</h1> <button
+                                    class="bg-white rounded-2xl px-4 text-emerald-400 py-1">SignUp</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script src="https://cdn.tailwindcss.com"></script>
+                <script src="https://kit.fontawesome.com/290d4f0eb4.js" crossorigin="anonymous"></script>
+                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+
+
+
+
+
+
+
+                <!--         our clients        --->
+
+                <div class="flex justify-center p-4 bg-gray-700">
+                    <div class="flex flex-col justify-center items-center text-center">
+                        <div class="text-white text-3xl md:text-5xl font-medium my-2">What People are Saying</div>
+                        <div class="text-white md:text-xl my-2 w-3/4">TailBlocks has inspired tens of thousands of
+                            Front-end Web Developers</div>
+                        <div class=" my-2 flex flex-col md:flex-row max-w-7xl justify-center items-center ">
+                            <div>
+                                <div class="flex flex-col justify-center items-center ">
+                                    <div
+                                        class="overflow-hidden m-4 flex flex-col justify-center bg-gray-600 rounded-xl">
+                                        <div class="flex flex-col md:flex-row items-center justify-center ">
+                                            <div class=" items-center justify-center flex py-2">
+                                                <div class="flex flex-col items-center justify-center text-center">
+                                                    <div class="text-stone-200 m-2 px-8 text-xl">Tailblocks provides
+                                                        best Tailwind CSS Components and Blocks to create an unique
+                                                        websites within minutes. It has upto 60+ free components for
+                                                        front-end Web Development.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-6 w-6 bg-gray-600 -mt-8 mb-4 origin-center rotate-45"></div>
+                                    <div class="flex flex-col items-center justify-center"> <img
+                                            src="https://source.unsplash.com/100x100/?man,boy" alt=""
+                                            class="rounded-full h-20 w-20" />
+                                        <div class="text-white text-sm font-medium">John Doe, CEO</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex flex-col justify-center items-center ">
+                                    <div
+                                        class="overflow-hidden m-4 flex flex-col justify-center bg-gray-600 rounded-xl">
+                                        <div class="flex flex-col md:flex-row items-center justify-center ">
+                                            <div class=" items-center justify-center flex py-2">
+                                                <div class="flex flex-col items-center justify-center text-center">
+                                                    <div class="text-stone-200 m-2 px-8 text-xl">Tailblocks provides
+                                                        best Tailwind CSS Components and Blocks to create an unique
+                                                        websites within minutes. It has upto 60+ free components for
+                                                        front-end Web Development.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-6 w-6 bg-gray-600 -mt-8 mb-4 origin-center rotate-45"></div>
+                                    <div class="flex flex-col items-center justify-center"> <img
+                                            src="https://source.unsplash.com/100x100/?girl" alt=""
+                                            class="rounded-full h-20 w-20" />
+                                        <div class="text-white text-sm font-medium">Jessica Jones, SEO Executive</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex flex-col justify-center items-center ">
+                                    <div
+                                        class="overflow-hidden m-4 flex flex-col justify-center bg-gray-600 rounded-xl">
+                                        <div class="flex flex-col md:flex-row items-center justify-center ">
+                                            <div class=" items-center justify-center flex py-2">
+                                                <div class="flex flex-col items-center justify-center text-center">
+                                                    <div class="text-stone-200 m-2 px-8 text-xl">Tailblocks provides
+                                                        best Tailwind CSS Components and Blocks to create an unique
+                                                        websites within minutes. It has upto 60+ free components for
+                                                        front-end Web Development.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="h-6 w-6 bg-gray-600 -mt-8 mb-4 origin-center rotate-45"></div>
+                                    <div class="flex flex-col items-center justify-center"> <img
+                                            src="https://source.unsplash.com/100x100/?woman" alt=""
+                                            class="rounded-full h-20 w-20" />
+                                        <div class="text-white text-sm font-medium">Sierra, Front-End Dev</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!------------- contributor----------->
+
+
+
+
+
+
+                <div class="flex justify-center">
+                    <div class=" flex md:flex-row flex-col px-4 py-2 my-10 gap-y-7 gap-x-7 max-w-7xl ">
+                        <div
+                            class="bg-gradient-to-t from-gray-900 via-purple-900 to-violet-600 border border-gray-200 rounded-xl drop-shadow-md shadow-current p-5 h-auto w-[300px] hover:shadow-lg hover:transform hover:scale-105 duration-500 ease-in-out ">
+                            <div class="flex flex-col justify-center items-center text-white p-2 ">
+                                <div
+                                    class="bg-gradient-to-t from-gray-900 via-purple-900 to-violet-600 rounded-full p-2">
+                                    <ion-icon name="logo-amplify" class="text-5xl "></ion-icon> </div>
+                                <div class="text-3xl m-2 ">Personal</div>
+                                <div class="text-white text-sm my-2 flex flex-col items-center h-60">
+                                    <div class="flex justify-center my-3 text-white font-medium md:tracking-tighter ">
+                                        <div class="text-2xl md:text-3xl mt-[3px] md:mt-[1px]">£</div>
+                                        <div class="text-3xl md:text-5xl">9.78</div>
+                                    </div>
+                                    <div classcon name="checkmark-sharp">
+                                        <div class="">1 website</div>
+                                    </div>
+                                    <div class="flex"> <ion-icon name="checkmark-sharp"> </ion-icon>
+                                        <div class="">50 GB Storage</div>
+                                    </div>
+                                    <div class="flex"> <ion-icon name="close-sharp"> </ion-icon>
+                                        <div class="">Unlimited Databases</div>
+                                    </div>
+                                    <div class="flex"> <ion-icon name="close-sharp"> </ion-icon>
+                                        <div class="">~100,000 Visits Monthly</div>
+                                    </div>
+                                    <div class="flex"> <ion-icon name="close-sharp"> </ion-icon>
+                                        <div class="">SSL</div>
+                                    </div>
+                                    <div class="flex"> <ion-icon name="close-sharp"> </ion-icon>
+                                        <div class="">Daily Backups</div>
+                                    </div>
+                                    <div class="flex"> <ion-icon name="close-sharp"> </ion-icon>
+                                        <div class="">Free E-mail</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-gradient-to-bl from-slate-900 via-purple-900 to-slate-900 border border-gray-200 rounded-xl drop-shadow-md shadow-current p-5 h-auto w-[300px] hover:shadow-lg hover:transform hover:scale-105 duration-500 ease-in-out ">
+                            <div class="flex flex-col justify-center items-center text-white p-2 ">
+                                <div
+                                    class="bg-gradient-to-bl from-slate-900 via-purple-900 to-slate-900 rounded-full p-2">
+                                    <ion-icon name="logo-octocat" class="text-5xl "></ion-icon> </div>
+                                <div class="text-3xl m-2 ">Shared</div>
+                                <div class="text-white text-sm my-2 flex flex-col items-center h-60">
+                                    <div class="flex justify-center my-3 text-white font-medium md:tracking-tighter ">
+                                        <div class="text-2xl md:text-3xl mt-[3px] md:mt-[1px]">£</div>
+                                        <div class="text-3xl md:text-5xl">9.78</div>
+                                    </div>
+                                    <div class="flex"> <ion-icon name="checkmark-sharp"> </ion-icon>
+                                        <div class="">100 websites</div>
+                                    </div>
+                                    <div class="flex"> <ion-icon name="checkmark-sharp"> </ion-icon>
+                                        <div class="">500 GB Storage</div>
+                                    </div>
+                                    <div class="flex"> <ion-icon name="checkmark-sharp"> </ion-icon>
+                                        <div class="">Unlimited Databases</div>
+                                    </div>
+                                    <div class="flex"> <ion-icon name="checkmark-sharp"> </ion-icon>
+                                        <div class="">~100,000 Visits Monthly</div>
+                                    </div>
+                                    <div class="flex"> <ion-icon name="checkmark-sharp"> </ion-icon>
+                                        <div class="">SSL</div>
+                                    </div>
+                                    <div class="flex"> <ion-icon name="close-sharp"> </ion-icon>
+                                        <div class="">Daily Backups</div>
+                                    </div>
+                                    <div class="flex"> <ion-icon name="close-sharp"> </ion-icon>
+                                        <div class="">Free E-mail</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-gradient-to-br from-gray-400 via-gray-900 to-blue-800 border border-gray-200 rounded-xl drop-shadow-md shadow-current p-5 h-auto w-[300px] hover:shadow-lg hover:transform hover:scale-105 duration-500 ease-in-out ">
+                            <div class="flex flex-col justify-center items-center text-white p-2 ">
+                                <div class="bg-gradient-to-br from-gray-400 via-gray-900 to-blue-800 rounded-full p-2">
+                                    <ion-icon name="logo-gitlab" class="text-5xl "></ion-icon> </div>
+                                <div class="text-3xl m-2 ">Business</div>
+                                <div class="text-white text-sm my-2 flex flex-col items-center h-60">
+                                    <div class="flex justify-center my-3 text-white font-medium md:tracking-tighter ">
+                                        <div class="text-2xl md:text-3xl mt-[3px] md:mt-[1px]">£</div>
+                                        <div class="text-3xl md:text-5xl">9.78</div>
+                                    </div>
+                                    <div class="flex"> <ion-icon name="checkmark-sharp"> </ion-icon>
+                                        <div class="">100 websites</div>
+                                    </div>
+                                    <div class="flex"> <ion-icon name="checkmark-sharp"> </ion-icon>
+                                        <div class="">500 GB Storage</div>
+                                    </div>
+                                    <div class="flex"> <ion-icon name="checkmark-sharp"> </ion-icon>
+                                        <div class="">Unlimited Databases</div>
+                                    </div>
+                                    <div class="flex"> <ion-icon name="checkmark-sharp"> </ion-icon>
+                                        <div class="">~100,000 Visits Monthly</div>
+                                    </div>
+                                    <div class="flex"> <ion-icon name="checkmark-sharp"> </ion-icon>
+                                        <div class="">SSL</div>
+                                    </div>
+                                    <div class="flex"> <ion-icon name="checkmark-sharp"> </ion-icon>
+                                        <div class="">Daily Backups</div>
+                                    </div>
+                                    <div class="flex"> <ion-icon name="checkmark-sharp"> </ion-icon>
+                                        <div class="">Free E-mail</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script src="https://cdn.tailwindcss.com"></script>
+                <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
+                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+
+
+
+                <script src="https://cdn.tailwindcss.com"></script>
+                <script>
+                    function myFunction() {
+                        document.getElementById("myDropdown").classList.toggle("show");
+                    }
+
+                    // Close the dropdown menu if the user clicks outside of it
+                    window.onclick = function (event) {
+                        if (!event.target.matches('.dropbtn')) {
+                            var dropdowns = document.getElementsByClassName("dropdown-content");
+                            var i;
+                            for (i = 0; i < dropdowns.length; i++) {
+                                var openDropdown = dropdowns[i];
+                                if (openDropdown.classList.contains('show')) {
+                                    openDropdown.classList.remove('show');
+                                }
+                            }
+                        }
+                    }
+                </script>
+
+
+                <script src="script.js"></script>
+
+
+                <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark"
+                    position="bottom-right"></script>
+
+
+    </body>
+
+</html>
