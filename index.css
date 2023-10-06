@@ -1,0 +1,111 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(31, 31, 31);
+
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+.web-logo{
+display: inline-block;
+font-size: 20px;
+align-items: center;
+
+
+}
+.header{
+  overflow-y: scroll;
+}
+
+.header::-webkit-scrollbar {
+  display: none;
+}
+
+
+.header {
+  overflow: auto;
+  white-space: nowrap;
+  background-color: rgb(24, 24, 24);
+  width: 100%;
+ 
+}
+
+.header a {
+  display: inline-block;
+  padding: 10px;
+
+ 
+}
+
+.header-item {
+  text-decoration: none;
+  color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+.header-item:hover {
+
+  background-color: #b35c2d5c;
+}
+
+
+.intro {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(auto-fill, 50%);
+  border: 1px solid red;
+  padding-left: 5%;
+}
+
+.intro-paragraph {
+  border: 1px solid red;
+  
+}
+
+.intro-img {
+  max-width: 40%;
+
+}
+
+
+.one {
+    word-spacing: 3px;
+    color: rgb(243, 243, 247);
+    text-shadow: -1px 0 rgb(12, 5, 11), 0 1px rgba(19, 18, 19, 0.59), 1px 0 black, 0 -1px black; font-size: 25px;
+    font-size: 25px;
+     
+}
+
+.projectsection{
+  display:grid;
+  grid-template-columns: repeat(auto-fill,70%);
+  grid-gap:28px;
+ grid-auto-columns: repeat(auto-fill, 100%);
+ margin:3% 10% 3% 20%;
+}
+ 
+.projects{
+  text-align:center;
+color:white;
+}
+
+.projects:hover{
+  box-shadow: #faf9f9 0px 0px 5px 5px; ;
+}
+
+
+
+
