@@ -114,7 +114,7 @@ body::-webkit-scrollbar {
   display: grid;
   grid-template-columns: repeat(auto-fill, 70%);
   grid-gap: 28px;
-  padding: 12px;
+  padding: 10px;
   grid-auto-columns: repeat(auto-fill, 100%);
   margin: 3% 10% 3% 20%;
 }
@@ -123,6 +123,7 @@ body::-webkit-scrollbar {
   text-align: center;
   color: white;
   padding: 2px;
+  font-size: 18px;
 }
 
 .projects:hover {
