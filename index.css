@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(31, 31, 31);
+  background-color: rgba(44, 44, 44, 0.999);
 
   overflow-y: scroll;
 }
@@ -15,14 +15,15 @@ body::-webkit-scrollbar {
 }
 
 
-.web-logo{
-display: inline-block;
-font-size: 20px;
-align-items: center;
+.web-logo {
+  display: inline-block;
+  font-size: 15px;
+  align-items: center;
 
 
 }
-.header{
+
+.header {
   overflow-y: scroll;
 }
 
@@ -36,14 +37,14 @@ align-items: center;
   white-space: nowrap;
   background-color: rgb(24, 24, 24);
   width: 100%;
- 
+
 }
 
 .header a {
   display: inline-block;
   padding: 10px;
 
- 
+
 }
 
 .header-item {
@@ -56,8 +57,8 @@ align-items: center;
 }
 
 .header-item:hover {
-
-  background-color: #b35c2d5c;
+  border-radius: 6px;
+  background-color: #0936d8e3;
 }
 
 
@@ -72,7 +73,7 @@ align-items: center;
 
 .intro-paragraph {
   border: 1px solid red;
-  
+
 }
 
 .intro-img {
@@ -82,30 +83,49 @@ align-items: center;
 
 
 .one {
-    word-spacing: 3px;
-    color: rgb(243, 243, 247);
-    text-shadow: -1px 0 rgb(12, 5, 11), 0 1px rgba(19, 18, 19, 0.59), 1px 0 black, 0 -1px black; font-size: 25px;
-    font-size: 25px;
-     
-}
+  word-spacing: 3px;
+  color: rgb(247, 245, 249);
+  text-shadow: -1px 0 rgb(12, 5, 11), 0 1px rgba(19, 18, 19, 0.59), 1px 0 black, 0 -1px black;
+  font-size: 20px;
 
-.projectsection{
-  display:grid;
-  grid-template-columns: repeat(auto-fill,70%);
-  grid-gap:28px;
- grid-auto-columns: repeat(auto-fill, 100%);
- margin:3% 10% 3% 20%;
-}
- 
-.projects{
-  text-align:center;
-color:white;
-}
 
-.projects:hover{
-  box-shadow: #faf9f9 0px 0px 5px 5px; ;
 }
 
 
+.resume-box {
+  box-shadow: #ffffff 0px 0px 7px 7px;
+  margin: 10px 38% 10px 38%;
+  border-radius: 10px;
+
+}
+
+.resume {
+  color: red;
+  text-shadow: -1px 0 rgb(11, 9, 11), 0 1px rgba(45, 7, 213, 0.59), 1px 0 rgb(226, 3, 238), 0 -1px rgb(177, 135, 175);
+  font-size: 25px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+
+}
 
 
+
+.projectsection {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 70%);
+  grid-gap: 28px;
+  padding: 12px;
+  grid-auto-columns: repeat(auto-fill, 100%);
+  margin: 3% 10% 3% 20%;
+}
+
+.projects {
+  text-align: center;
+  color: white;
+  padding: 2px;
+}
+
+.projects:hover {
+  box-shadow: #faf9f9 0px 0px 5px 5px;
+
+}
