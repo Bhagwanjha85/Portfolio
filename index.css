@@ -15,6 +15,7 @@ body::-webkit-scrollbar {
 }
 
 
+
 .web-logo {
   display: inline-block;
   font-size: 15px;
@@ -23,43 +24,104 @@ body::-webkit-scrollbar {
 
 }
 
-.header {
-  overflow-y: scroll;
-}
-
-.header::-webkit-scrollbar {
-  display: none;
-}
 
 
-.header {
-  overflow: auto;
-  white-space: nowrap;
-  background-color: rgb(24, 24, 24);
-  width: 100%;
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 
 }
 
-.header a {
-  display: inline-block;
-  padding: 10px;
-
-
-}
-
-.header-item {
+.logo a {
   text-decoration: none;
-  color: coral;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  font-size: 15px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+ 
 }
 
-.header-item:hover {
-  border-radius: 6px;
-  background-color: #0936d8e3;
+.nav-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
 }
+
+.nav-menu ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-menu ul li:last-child {
+  margin-right: 0;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.menu-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  width: 30px;
+  position: relative;
+}
+
+.menu-toggle span {
+  background-color: #fff;
+  height: 3px;
+  width: 30px;
+  margin: 2px 0;
+  transition: transform 0.2s;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+      display: flex;
+  }
+
+  .nav-menu {
+      display: none;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #333;
+      width: 100%;
+      text-align: center;
+  }
+
+  .nav-menu.open {
+      display: inline-block;
+      padding: 12px;
+  }
+
+  .menu-toggle.open span:nth-child(1) {
+      transform: rotate(45deg) translate(4px, 4px);
+  }
+
+  .menu-toggle.open span:nth-child(2) {
+      opacity: 0;
+  }
+
+  .menu-toggle.open span:nth-child(3) {
+      transform: rotate(-45deg) translate(4px, -4px);
+  }
+}
+
+
 
 
 .intro {
@@ -81,7 +143,6 @@ body::-webkit-scrollbar {
 
 }
 
-
 .one {
   word-spacing: 3px;
   color: rgb(247, 245, 249);
@@ -91,10 +152,10 @@ body::-webkit-scrollbar {
 
 }
 
-
 .resume-box {
-  box-shadow: #ffffff 0px 0px 7px 7px;
-  margin: 10px 38% 10px 38%;
+  box-shadow: #faf9f9 0px 0px 5px 5px;
+  margin-right: 40%;
+  text-align: right;
   border-radius: 10px;
 
 }
@@ -103,16 +164,14 @@ body::-webkit-scrollbar {
   color: red;
   text-shadow: -1px 0 rgb(11, 9, 11), 0 1px rgba(45, 7, 213, 0.59), 1px 0 rgb(226, 3, 238), 0 -1px rgb(177, 135, 175);
   font-size: 25px;
-  text-align: center;
-  background: rgb(255, 255, 255);
+  text-align:right;
+  
 
 }
 
-
-
 .projectsection {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 70%);
+  grid-template-columns: repeat(auto-fill, 90%);
   grid-gap: 28px;
   padding: 10px;
   grid-auto-columns: repeat(auto-fill, 100%);
@@ -123,7 +182,7 @@ body::-webkit-scrollbar {
   text-align: center;
   color: white;
   padding: 2px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .projects:hover {
