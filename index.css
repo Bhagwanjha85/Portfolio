@@ -4,9 +4,15 @@
   box-sizing: border-box;
 }
 
+
 body {
   background-color: rgba(44, 44, 44, 0.999);
-
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
   overflow-y: scroll;
 }
 
@@ -103,6 +109,8 @@ header {
       text-align: center;
   }
 
+
+
   .nav-menu.open {
       display: inline-block;
       padding: 12px;
@@ -153,21 +161,27 @@ header {
 }
 
 .resume-box {
-  box-shadow: #faf9f9 0px 0px 5px 5px;
-  margin-right: 40%;
+  
+  
+  margin-right: 58%;
   text-align: right;
-  border-radius: 10px;
+  border-radius: 20px;
+  background: linear-gradient(-45deg, #ee7752, #5205f8, #23a6d5, #caf203);
+  
+}
 
+
+.resume-box:hover{
+  box-shadow: #faf9fb 0px 0px 13px 5px;
 }
 
 .resume {
-  color: red;
+  color: rgb(250, 249, 249);
   text-shadow: -1px 0 rgb(11, 9, 11), 0 1px rgba(45, 7, 213, 0.59), 1px 0 rgb(226, 3, 238), 0 -1px rgb(177, 135, 175);
   font-size: 25px;
-  text-align:right;
-  
-
+  text-align:center;
 }
+
 
 .projectsection {
   display: grid;
