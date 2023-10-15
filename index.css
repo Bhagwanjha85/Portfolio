@@ -12,13 +12,14 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  
+
   overflow-y: scroll;
 }
 
 body::-webkit-scrollbar {
   display: none;
 }
+
 
 
 
@@ -47,7 +48,7 @@ header {
   color: #fff;
   font-size: 24px;
   font-weight: bold;
- 
+
 }
 
 .nav-menu ul {
@@ -82,7 +83,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 20px;
-  width: 30px;
+  width: 25px;
   position: relative;
 }
 
@@ -96,36 +97,36 @@ header {
 
 @media (max-width: 768px) {
   .menu-toggle {
-      display: flex;
+    display: flex;
   }
 
   .nav-menu {
-      display: none;
-      position: absolute;
-      top: 60px;
-      right: 0;
-      background-color: #333;
-      width: 100%;
-      text-align: center;
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
   }
 
 
 
   .nav-menu.open {
-      display: inline-block;
-      padding: 12px;
+    display: inline-block;
+    padding: 12px;
   }
 
   .menu-toggle.open span:nth-child(1) {
-      transform: rotate(45deg) translate(4px, 4px);
+    transform: rotate(45deg) translate(4px, 4px);
   }
 
   .menu-toggle.open span:nth-child(2) {
-      opacity: 0;
+    opacity: 0;
   }
 
   .menu-toggle.open span:nth-child(3) {
-      transform: rotate(-45deg) translate(4px, -4px);
+    transform: rotate(-45deg) translate(4px, -4px);
   }
 }
 
@@ -161,17 +162,17 @@ header {
 }
 
 .resume-box {
-  
-  
+
+
   margin-right: 58%;
   text-align: right;
   border-radius: 20px;
   background: linear-gradient(-45deg, #ee7752, #5205f8, #23a6d5, #caf203);
-  
+
 }
 
 
-.resume-box:hover{
+.resume-box:hover {
   box-shadow: #faf9fb 0px 0px 13px 5px;
 }
 
@@ -179,7 +180,7 @@ header {
   color: rgb(250, 249, 249);
   text-shadow: -1px 0 rgb(11, 9, 11), 0 1px rgba(45, 7, 213, 0.59), 1px 0 rgb(226, 3, 238), 0 -1px rgb(177, 135, 175);
   font-size: 25px;
-  text-align:center;
+  text-align: center;
 }
 
 
@@ -202,4 +203,12 @@ header {
 .projects:hover {
   box-shadow: #faf9f9 0px 0px 5px 5px;
 
+}
+
+.myaccount{
+  text-align: center;
+  
+}
+.myaccount a{
+  padding: 10px;
 }
