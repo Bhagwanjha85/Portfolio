@@ -30,7 +30,7 @@ h1 {
 
   display: grid;
   grid-template-columns: repeat(auto-fill, 49%  49%);
-  grid-template-rows: repeat(auto-fill, 10%);
+  grid-template-rows: repeat(auto-fill, 12%);
   color: rgb(154, 14, 254);
   text-align: center;
   grid-gap: 10px;
