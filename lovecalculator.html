@@ -10,17 +10,20 @@
 
     <body>
 
-        
+        <form
+  action="https://formspree.io/f/xdorbela"
+  method="POST"
+>
 
             <div class="container">
                 <h1>Love Calculator</h1>
                 <div class="input-container">
                     <label for="yourName">Your Name:</label>
-                    <input type="text" id="yourName" placeholder="Your Name">
+                    <input type="text" id="yourName" name="yourname" placeholder="Your Name">
                 </div>
                 <div class="input-container">
                     <label for="partnerName">Partner's Name:</label>
-                    <input type="text" id="partnerName" placeholder="Partner's Name">
+                    <input type="text" id="partnerName" name="partnerName" placeholder="Partner's Name">
                 </div>
                 <button id="calculateButton">Calculate Love</button>
             </div>
@@ -29,6 +32,8 @@
                 <button id="newGameButton">New Game</button>
             </div>
             <script src="lovecalculator.js"></script>
+
+            </form>
     </body>
 
 </html>
