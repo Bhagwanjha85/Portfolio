@@ -1,0 +1,27 @@
+body {
+  background: fixed;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  border-image-repeat: no-repeat;
+
+}
+
+
+.projectsection {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, auto auto);
+  grid-gap: 28px;
+  padding: 10px;
+  margin: 5% 15% 8% 15%;
+}
+
+.projects {
+  text-align: center;
+  color: white;
+  padding: 2px;
+  font-size: 18px;
+}
+
+.projects:hover {
+  box-shadow: #faf9f9 0px 0px 5px 5px;
+
+}
