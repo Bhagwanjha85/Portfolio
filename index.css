@@ -7,7 +7,7 @@
 
 body {
  
-  background:rgb(45, 44, 44);
+  background:rgb(41, 40, 40);
   -webkit-user-select: none;
   -webkit-touch-callout: none;
   -moz-user-select: none;
@@ -19,6 +19,7 @@ body {
 
 body::-webkit-scrollbar {
   display: none;
+
 }
 
 
@@ -71,6 +72,7 @@ header {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .menu-toggle {
@@ -78,12 +80,13 @@ header {
   border: none;
   cursor: pointer;
   padding: 0;
-  display: flex;
-  flex-direction: column;
+  display: none;
+  flex-direction:column;
   justify-content: space-between;
   align-items: center;
   height: 20px;
   width: 25px;
+ 
   position: relative;
 }
 
@@ -102,7 +105,7 @@ header {
 
   .nav-menu {
     display: none;
-    position: absolute;
+    position:absolute;
     top: 60px;
     right: 0;
     background-color: #333;
@@ -138,6 +141,7 @@ header {
   background-image: url(' https://media.giphy.com/media/xT8qBgf4STo1TZBOda/giphy.gif');
   background-position: center;
   -webkit-background-clip: text;
+  
 }
 
 
@@ -208,7 +212,8 @@ header {
   grid-template-columns: repeat(auto-fill, 300px);
   grid-gap: 28px;
   padding: 10px;
- 
+ align-items: center;
+ justify-content: center;
   background-image: url('projectbg.png');
   background-position: center;
   background-attachment: fixed;
@@ -227,7 +232,7 @@ header {
 }
 
 .projects:hover {
-  box-shadow: #faf9f9 0px 0px 5px 5px;
+  box-shadow: #e901f9 0px 0px 5px 5px;
 
 }
 
