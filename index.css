@@ -6,14 +6,14 @@
 
 
 body {
- 
-  background:rgb(41, 40, 40);
+
+  background: linear-gradient(45deg,rgb(10, 10, 10), rgb(176, 1, 115),rgb(32, 26, 27));
+  /* background: rgb(41, 40, 40); */
   -webkit-user-select: none;
   -webkit-touch-callout: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-
   overflow-y: scroll;
 }
 
@@ -23,19 +23,9 @@ body::-webkit-scrollbar {
 }
 
 
-
-.web-logo {
-  display: inline-block;
-  font-size: 15px;
-  align-items: center;
-
-
-}
-
-
-
 header {
   background-color: #333;
+  background: linear-gradient(45deg,rgb(14, 14, 14),red);
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -81,12 +71,12 @@ header {
   cursor: pointer;
   padding: 0;
   display: none;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   height: 20px;
   width: 25px;
- 
+
   position: relative;
 }
 
@@ -105,14 +95,13 @@ header {
 
   .nav-menu {
     display: none;
-    position:absolute;
+    position: absolute;
     top: 60px;
     right: 0;
     background-color: #333;
     width: 100%;
     text-align: center;
   }
-
 
 
   .nav-menu.open {
@@ -133,17 +122,24 @@ header {
   }
 }
 
-.title{
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+.title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 30px;
   font-weight: 800;
-  color: transparent;
-  background-image: url(' https://media.giphy.com/media/xT8qBgf4STo1TZBOda/giphy.gif');
-  background-position: center;
-  -webkit-background-clip: text;
-  
+  color: white;
 }
 
+span {
+  color: rgb(249, 5, 245);
+  font-family:cursive;
+}
+
+.main-content {
+  text-decoration: underline;
+  color: rgb(251, 247, 247);
+ font-size: 25px;
+}
 
 
 .intro {
@@ -157,7 +153,6 @@ header {
 
 .intro-paragraph {
   border: 1px solid red;
-
 }
 
 .intro-img {
@@ -170,33 +165,23 @@ header {
   color: rgb(247, 245, 249);
   text-shadow: -1px 0 rgb(12, 5, 11), 0 1px rgba(19, 18, 19, 0.59), 1px 0 black, 0 -1px black;
   font-size: 20px;
-
-
 }
 
 .resume-box {
 
-
   margin-right: 58%;
   text-align: right;
   border-radius: 20px;
-  background: linear-gradient(-45deg,orange,white,green)
-
+  background: linear-gradient(-45deg, orange, white, green)
 }
-
 
 .resume-box:hover {
   box-shadow: #faf9fb 0px 0px 13px 5px;
 }
 
 .resume {
-  /* color: rgb(250, 249, 249);
-  text-shadow: -1px 0 rgb(11, 9, 11), 0 1px rgba(45, 7, 213, 0.59), 1px 0 rgb(226, 3, 238), 0 -1px rgb(177, 135, 175);
-  font-size: 25px; */
   text-align: center;
-
-
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 30px;
   font-weight: 800;
   color: transparent;
@@ -212,13 +197,9 @@ header {
   grid-template-columns: repeat(auto-fill, 300px);
   grid-gap: 28px;
   padding: 10px;
- align-items: center;
- justify-content: center;
-  background-image: url('projectbg.png');
-  background-position: center;
-  background-attachment: fixed;
- background-repeat: no-repeat;
-  width: 100%;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 
@@ -236,10 +217,11 @@ header {
 
 }
 
-.myaccount{
+.myaccount {
   text-align: center;
-  
+
 }
-.myaccount a{
+
+.myaccount a {
   padding: 10px;
 }
