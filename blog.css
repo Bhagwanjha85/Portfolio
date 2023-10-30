@@ -1,37 +1,102 @@
-html {
-    height: 100%;
-    width: 100%;
-  }
-  
-  .navpage{
-          overflow: auto;
-    white-space: nowrap;
-          text-align:right;;
-          width:100%;
-          
-      }
-      .navpage a{
-           display: inline-block;
-          color:white;
-          font-size:15px;
-      }
-  
-      .navpage a:hover{
-           
-      
-  /* 		border-width:2px; */
-          border-style:solid;
-          color:#f7f7f7;
-          
-          background:#38c274;
-      }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+.top-header{
+background:linear-gradient(45deg,rgb(22, 22, 22),rgb(2, 134, 243),rgb(0, 191, 255)) ;
+text-align: center;
+font-weight: 800;
+font-family: cursive;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 140px;
+}
+
+
+@media (max-width: 700px) {
+    body {
+        width: 150%;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:600px){
+
+    .box{
+        background-color: aliceblue;
+    }
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100%);
+    grid-gap: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: pink;
+}
+
+.box-item {
+    border: 3px solid rgb(235, 233, 233);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.my-logo{
+    display: flex;
+    align-items: center;
+}
+
+.box-img {
+    width: 40%;
+
+}
+
+.blog-paragraph {
+    font-size: 12px;
+    font-family: cursive;
+}
+
+
+.link {
+    text-decoration: none;
+    color: rgb(11, 11, 11);
+
+}
+
+.read-more {
+    color: rgb(249, 248, 250);
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.read-more:hover{
+    box-shadow: rgb(247, 247, 246) 0px 0px 2px 1px;
+}
+
+
+.read-more a {
+    text-decoration: none;
+
+}
