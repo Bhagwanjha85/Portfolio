@@ -15,12 +15,14 @@ body {
   -ms-user-select: none;
   user-select: none;
   overflow-y: scroll;
+
 }
 
 body::-webkit-scrollbar {
   display: none;
 
 }
+
 
 
 header {
@@ -171,7 +173,7 @@ span {
   margin-right: 58%;
   text-align: right;
   border-radius: 20px;
-  background: linear-gradient(-45deg, orange, white, green)
+  background: linear-gradient(-45deg, rgb(0, 170, 255), rgb(108, 6, 231), rgb(128, 0, 98))
 }
 
 .resume-box:hover {
@@ -199,9 +201,14 @@ span {
   align-items: center;
   justify-content: center;
 
-
 }
 
+.projects:hover {
+  border-bottom: 5px solid rgb(158, 3, 135);
+  transform: scale(1.1);
+  filter: brightness(100%);
+  transition: 1s ease-in-out;
+}
 
 .projects {
   text-align: center;
@@ -212,10 +219,97 @@ span {
   border-radius: 5px;
 }
 
-.projects:hover {
-  box-shadow: #e901f9 0px 0px 5px 5px;
 
+.card-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ margin: 2px;
 }
+
+.card {
+  width: 40rem;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+ 
+  
+}
+
+
+
+.skill-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.card-body {
+  display: grid;
+  grid-template-columns:repeat(auto-fill,350px) ;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+
+.skill-name {
+  width: 120px;
+  font-size: 16px;
+}
+
+.html:hover {
+  color: blue;
+  
+}
+
+.css:hover {
+  color: purple;
+}
+
+.js:hover {
+  color: red;
+}
+
+.skill-level {
+  width: 130px;
+  height: 10px;
+  background-color: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 20px;
+  
+}
+
+.skill-percent {
+  background:linear-gradient(90deg, red,purple);
+  height: 100%;
+}
+
+.skill-percent-number {
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+
 
 .myaccount {
   text-align: center;
