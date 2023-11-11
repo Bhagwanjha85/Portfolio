@@ -11,8 +11,7 @@ body {
     user-select: none;
     
 }
-
-.top-header{
+ .top-header{
 background:linear-gradient(45deg,rgb(22, 22, 22),rgb(2, 134, 243),rgb(0, 191, 255)) ;
 text-align: center;
 font-weight: 800;
@@ -21,8 +20,9 @@ display: flex;
 align-items: center;
 justify-content: center;
 height: 140px;
-}
+} 
 
+/*
 
 @media (max-width: 700px) {
     body {
@@ -78,7 +78,7 @@ height: 140px;
 
 }
 
-.read-more {
+/* .read-more {
     color: rgb(249, 248, 250);
     margin-top: 10px;
     font-size: 20px;
@@ -99,4 +99,185 @@ height: 140px;
 .read-more a {
     text-decoration: none;
 
-}
+} */
+
+
+/* button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+   }
+   
+   button.learn-more {
+    width: 12rem;
+    height: auto;
+   }
+   
+   button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
+   }
+   
+   button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+   }
+   
+   button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+   }
+   
+   button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+   }
+   
+   button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+   }
+   
+   button:hover .circle {
+    width: 100%;
+   }
+   
+   button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+   }
+   
+   button:hover .button-text {
+    color: #fff;
+   } */
+
+
+   .blog-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-gap: 18px;
+   }
+
+
+
+
+   .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0.75rem;
+    background-color: rgb(11, 11, 11);
+    color: antiquewhite;
+    width: 300px;
+    height: 370px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),
+    0 2px 4px -2px rgba(0,0,0,.1);
+  }
+  
+  .header {
+    position: relative;
+    background-clip: border-box;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius:10px;
+    background-color: rgb(33 150 243);
+    box-shadow: 0 10px 15px -3px rgba(33,150,243,.4),0 4px 6px -4px rgba(33,150,243,.4);
+    height: 14rem;
+  }
+  
+  .info {
+    border: none;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .title {
+    color: rgb(123, 120, 120);
+    letter-spacing: 0;
+    line-height: 1.375;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer {
+    padding: 0.75rem;
+    border: 1px solid rgb(236 239 241);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 140, 255, 0.082);
+  }
+  
+  .tag {
+    font-weight: 300;
+    font-size: .75rem;
+    display: block;
+  }
+  
+  .action {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 6px -1px rgba(33,150,243,.4),0 2px 4px -2px rgba(33,150,243,.4);
+    color: rgb(255 255 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .75rem;
+    padding: 0.75rem 1.5rem;
+    background-color: rgb(33 150 243);
+    border-radius: 0.5rem;
+  }
+  
+  
+
+
+
+
+
+
+
