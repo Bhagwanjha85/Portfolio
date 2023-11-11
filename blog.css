@@ -9,275 +9,90 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    
-}
- .top-header{
-background:linear-gradient(45deg,rgb(22, 22, 22),rgb(2, 134, 243),rgb(0, 191, 255)) ;
-text-align: center;
-font-weight: 800;
-font-family: cursive;
-display: flex;
-align-items: center;
-justify-content: center;
-height: 140px;
-} 
+    background: linear-gradient(130deg, rgb(67, 186, 2),rgb(0, 255, 247),green);
 
-/*
-
-@media (max-width: 700px) {
-    body {
-        width: 150%;
-        font-size: 15px;
-    }
 }
 
-@media(max-width:600px){
 
-    .box{
-        background-color: aliceblue;
-    }
-}
-
-.box {
+.container-items {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 100%);
-    grid-gap: 8px;
-    margin-left: 5px;
-    margin-right: 5px;
-    cursor: pointer;
-    background-color: pink;
-}
-
-.box-item {
-    border: 3px solid rgb(235, 233, 233);
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-
-}
-
-.my-logo{
-    display: flex;
-    align-items: center;
-}
-
-.box-img {
-    width: 40%;
-
-}
-
-.blog-paragraph {
-    font-size: 12px;
-    font-family: cursive;
-}
-
-
-.link {
-    text-decoration: none;
-    color: rgb(11, 11, 11);
-
-}
-
-/* .read-more {
-    color: rgb(249, 248, 250);
-    margin-top: 10px;
-    font-size: 20px;
-    text-align: center;
-    border: none;
-    cursor: pointer;
-    border-radius: 15px;
-    background-color: black;
-    display: flex;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-gap: 6%;
+    margin: 20px;
     align-items: center;
     justify-content: center;
 }
-.read-more:hover{
-    box-shadow: rgb(247, 247, 246) 0px 0px 2px 1px;
+
+
+.card {
+    position: relative;
+    width: 350px;
+    height: 300px;
+    color: #2e2d31;
+    background: #131313;
+    overflow: hidden;
+    border-radius: 20px;
 }
 
+.temporary_text {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 6px 12px;
+    color: #f8f8f8;
+}
 
-.read-more a {
-    text-decoration: none;
+.card_title {
+    font-weight: bold;
+    font-size: 22px;
+  color: rgb(244, 5, 5);
+ 
+}
 
-} */
-
-
-/* button {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    outline: none;
-    border: 0;
-    vertical-align: middle;
-    text-decoration: none;
-    background: transparent;
-    padding: 0;
-    font-size: inherit;
-    font-family: inherit;
-   }
-   
-   button.learn-more {
-    width: 12rem;
-    height: auto;
-   }
-   
-   button.learn-more .circle {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    position: relative;
-    display: block;
-    margin: 0;
-    width: 3rem;
-    height: 3rem;
-    background: #282936;
-    border-radius: 1.625rem;
-   }
-   
-   button.learn-more .circle .icon {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+.card_content {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    background: #fff;
-   }
-   
-   button.learn-more .circle .icon.arrow {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    left: 0.625rem;
-    width: 1.125rem;
-    height: 0.125rem;
-    background: none;
-   }
-   
-   button.learn-more .circle .icon.arrow::before {
-    position: absolute;
-    content: "";
-    top: -0.29rem;
-    right: 0.0625rem;
-    width: 0.625rem;
-    height: 0.625rem;
-    border-top: 0.125rem solid #fff;
-    border-right: 0.125rem solid #fff;
-    transform: rotate(45deg);
-   }
-   
-   button.learn-more .button-text {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    position: absolute;
-    top: 0;
     left: 0;
-    right: 0;
     bottom: 0;
-    padding: 0.75rem 0;
-    margin: 0 0 0 1.85rem;
-    color: #282936;
-    font-weight: 700;
-    line-height: 1.6;
-    text-align: center;
-    text-transform: uppercase;
-   }
-   
-   button:hover .circle {
     width: 100%;
-   }
-   
-   button:hover .circle .icon.arrow {
-    background: #fff;
-    transform: translate(1rem, 0);
-   }
-   
-   button:hover .button-text {
-    color: #fff;
-   } */
+    padding: 20px;
+    background: #f8f7f7;
+    border-top-left-radius: 20px;
+    transform: translateY(150px);
+    transition: transform .25s;
+}
 
-
-   .blog-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    grid-gap: 18px;
-   }
-
+.card_content::before {
+    content: '';
+    position: absolute;
+    top: -47px;
+    right: -45px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(-175deg);
+    border-radius: 50%;
+    box-shadow: inset 48px 48px #f2f2f2;
+}
 
 
 
-   .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-radius: 0.75rem;
-    background-color: rgb(11, 11, 11);
-    color: antiquewhite;
-    width: 300px;
-    height: 370px;
-    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),
-    0 2px 4px -2px rgba(0,0,0,.1);
-  }
-  
-  .header {
-    position: relative;
-    background-clip: border-box;
-    margin-top: 1.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    border-radius:10px;
-    background-color: rgb(33 150 243);
-    box-shadow: 0 10px 15px -3px rgba(33,150,243,.4),0 4px 6px -4px rgba(33,150,243,.4);
-    height: 14rem;
-  }
-  
-  .info {
-    border: none;
-    padding: 1.5rem;
-    text-align: center;
-  }
-  
-  .title {
-    color: rgb(123, 120, 120);
-    letter-spacing: 0;
-    line-height: 1.375;
-    font-weight: 600;
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .footer {
-    padding: 0.75rem;
-    border: 1px solid rgb(236 239 241);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(0, 140, 255, 0.082);
-  }
-  
-  .tag {
-    font-weight: 300;
-    font-size: .75rem;
+.card_subtitle {
     display: block;
-  }
-  
-  .action {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    border: none;
-    outline: none;
-    box-shadow: 0 4px 6px -1px rgba(33,150,243,.4),0 2px 4px -2px rgba(33,150,243,.4);
-    color: rgb(255 255 255);
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: .75rem;
-    padding: 0.75rem 1.5rem;
-    background-color: rgb(33 150 243);
-    border-radius: 0.5rem;
-  }
-  
-  
+    font-size: 15px;
+    margin-bottom: 10px;
+font-weight: 600;
+}
 
+.card_description {
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity .5s;
+    padding-right: 15px;
+}
 
+.card:hover .card_content {
+    transform: translateY(0);
+}
 
-
-
-
-
+.card:hover .card_description {
+    opacity: 1;
+    transition-delay: .25s;
+}
