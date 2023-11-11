@@ -7,7 +7,7 @@
 
 body {
 
-  background: linear-gradient(45deg, rgb(10, 10, 10), rgb(176, 1, 115), rgb(32, 26, 27));
+  background: linear-gradient(45deg, rgb(9, 3, 87), rgb(176, 181, 247), rgb(5, 18, 134),red);
   /* background: rgb(41, 40, 40); */
   -webkit-user-select: none;
   -webkit-touch-callout: none;
@@ -95,7 +95,7 @@ header {
   }
 
   .nav-menu {
-    display: none;
+    
     position: absolute;
     top: 60px;
     right: 0;
@@ -193,6 +193,14 @@ span {
 }
 
 
+.summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
 .projectsection {
   display: grid;
   grid-template-columns: repeat(auto-fill, 320px);
@@ -220,11 +228,11 @@ span {
 }
 
 
-.card-container{
+.card-container {
   display: flex;
   align-items: center;
   justify-content: center;
- margin: 2px;
+  margin: 2px;
 }
 
 .card {
@@ -233,8 +241,8 @@ span {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
- 
-  
+
+
 }
 
 
@@ -248,16 +256,16 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
- 
+
 }
 
 .card-body {
   display: grid;
-  grid-template-columns:repeat(auto-fill,350px) ;
+  grid-template-columns: repeat(auto-fill, 350px);
   padding: 10px;
   align-items: center;
   justify-content: center;
-  
+
 }
 
 
@@ -268,7 +276,7 @@ span {
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-  
+
 }
 
 .skill-name {
@@ -278,7 +286,7 @@ span {
 
 .html:hover {
   color: blue;
-  
+
 }
 
 .css:hover {
@@ -296,11 +304,11 @@ span {
   border-radius: 10px;
   overflow: hidden;
   margin-left: 20px;
-  
+
 }
 
 .skill-percent {
-  background:linear-gradient(90deg, red,purple);
+  background: linear-gradient(90deg, red, purple);
   height: 100%;
 }
 
