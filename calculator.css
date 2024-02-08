@@ -5,14 +5,13 @@
 }
 
 body {
-    background: linear-gradient(rgb(4, 233, 218), rgb(204, 0, 255), navy);
+    background: linear-gradient(45deg, rgb(4, 54, 233), rgb(204, 0, 255), rgb(30, 15, 187));
 }
 
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(345deg,rgb(230, 0, 255),rgb(0, 149, 255),rgb(252, 5, 178));
     width: 100%;
     height: 100vh;
 }

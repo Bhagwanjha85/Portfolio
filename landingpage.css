@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    padding: 0px 10px 0px 15px;
+}
+
+.nav-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.vip-button {
+    color: rgb(11, 1, 1);
+    font-weight: 600;
+    box-shadow: black 0px 0px 4px 6px;
+    border-radius: 15px;
+    background-color: greenyellow;
+    width: 70px;
+}
+
+
+.about-company {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, 100%);
+}
+
+@media(max-width:650px) {
+    body {
+        font-size: 13px;
+        width: 220%;
+    }
+}
+
+.img-bg {
+    background-image: url('https://images.unsplash.com/photo-1636955816868-fcb881e57954?auto=format&fit=crop&w=1920');
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+.img-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    max-height: 500px;
+    font-size: 20px;
+    background-color: rgb(243, 240, 240);
+}
+
+.about-section {
+    box-shadow: rgb(57, 57, 57) 0px 0px 4px 5px;
+    background-color: #dbd8d8;
+
+}
+
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-size: 15px;
+}
+
+.about-text {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.heading2 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.about-image {
+    flex: 1;
+    box-sizing: border-box;
+
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin: 20px;
+
+}
+
+.service-card {
+    box-sizing: border-box;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.service-card h3 {
+    color: #3d3c3c;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.service-card p {
+    color: #777;
+}
+
+@media (max-width: 600px) {
+    .service-card {
+        width: 100%;
+    }
+}
+
+.details {
+    background-image: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-82797.jpg');
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: antiquewhite;
+    height: 150px;
+    grid-gap: 30px;
+    
+}
+
+.detail-items {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 800;
+    flex: 1;
+}
