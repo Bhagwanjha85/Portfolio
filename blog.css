@@ -9,8 +9,7 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background: linear-gradient(130deg, rgb(67, 186, 2),rgb(0, 255, 247),green);
-
+    background-image: linear-gradient(to bottom, #ff0000, #0000ff);
 }
 
 
