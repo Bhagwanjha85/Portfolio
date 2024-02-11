@@ -6,7 +6,8 @@
 
 
 body {
-  background-image: linear-gradient(to bottom, #ff0000, #0000ff);
+  /* background-image: linear-gradient(to bottom, #ff0000, #0000ff); */
+  background-image: linear-gradient(90deg,#995C72,#DBBADD,#BE92A2 );
  
 }
 
@@ -16,8 +17,9 @@ body::-webkit-scrollbar {
 }
 
 header {
-  background: linear-gradient(45deg, rgb(43, 43, 250), rgb(29, 1, 78),rgb(43, 0, 128));
-  color: #fff;
+  /* background: linear-gradient(45deg, rgb(43, 43, 250), rgb(29, 1, 78),rgb(43, 0, 128)); */
+  background: linear-gradient(45deg, #69DDFF,#96CDFF);
+  color: #090909;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,11 +29,50 @@ header {
 
 .logo a {
   text-decoration: none;
-  color: #fff;
-  font-size: 24px;
-  font-weight: bold;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 800;
 
 }
+
+.toggle{
+  display: flex;
+  /* justify-content:flex-end;
+  align-items:flex-end; */
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #69DDFF;
+  color:black;
+  padding: 20px;
+  transition: 0.4s;
+  overflow: hidden;
+
+}
+
+.menu{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  width:0;
+  display: flex;
+}
+
+.navigation input:checked ~ .menu{
+  width: 400px;
+}
+
+
+
+
+
 
 .nav-menu ul {
   list-style-type: none;
@@ -51,8 +92,7 @@ header {
 
 .nav-menu ul li a {
   text-decoration: none;
-  color: #cbc7c7;
-  font-weight: bold;
+  color: #0b0b0b;
   font-size: 15px;
 }
 
@@ -71,7 +111,7 @@ header {
 }
 
 .menu-toggle span {
-  background-color: #fff;
+  background-color: #f8f5f5;
   height: 3px;
   width: 30px;
   margin: 2px 0;
@@ -86,6 +126,7 @@ header {
   .nav-menu {
     
     position: absolute;
+    
     top: 60px;
     right: 0;
     background-color: #333;
@@ -97,10 +138,11 @@ header {
   .nav-menu.open {
     display: inline-block;
     padding: 12px;
+
   }
 
   .menu-toggle.open span:nth-child(1) {
-    transform: rotate(45deg) translate(4px, 4px);
+    transform:translateX(4px,4px);
   }
 
   .menu-toggle.open span:nth-child(2) {
@@ -108,7 +150,7 @@ header {
   }
 
   .menu-toggle.open span:nth-child(3) {
-    transform: rotate(-45deg) translate(4px, -4px);
+    transform: translate(4px, -4px);
   }
 }
 
@@ -121,14 +163,15 @@ header {
 }
 
 span {
-  color: rgb(242, 233, 242);
+  color: rgb(246, 244, 244);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .main-content {
   text-decoration: underline;
-  color: rgb(251, 247, 247);
+  color: rgb(16, 16, 16);
   font-size: 25px;
+  font-weight: 700;
 }
 
 
@@ -152,8 +195,9 @@ span {
 
 .aboutme {
   word-spacing: 3px;
-  color: rgb(247, 245, 249);
+  color: rgb(13, 13, 13);
   font-size: 20px;
+  font-weight: 500;
 }
 
 .resume-box {
@@ -237,8 +281,8 @@ p {
 
 
 .skill-header {
-  background-color: #333;
-  color: #fff;
+  background-color: #BE92A2;
+  color: #0e0d0d;
   padding: 20px;
   text-align: center;
   font-size: 18px;
@@ -256,8 +300,6 @@ p {
   justify-content: center;
 
 }
-
-
 
 
 .skill {

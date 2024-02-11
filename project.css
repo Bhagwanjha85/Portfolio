@@ -11,7 +11,9 @@ body {
   -ms-user-select: none;
   user-select: none;
   padding: 20px;
-  background-image: linear-gradient(to bottom, #ff0000, #0000ff);
+  /* background-image: linear-gradient(to bottom, #ff0000, #0000ff); */
+  background: linear-gradient(90deg,#778da9,#0d1b2a,#e0e1dd,#778da9);
+
 
   
 }
