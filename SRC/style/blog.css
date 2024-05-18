@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+*:hover{
+  text-decoration: dotted;
+}
+  body{
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    margin: 25px;
+
+  }
+
+  
+.blog__row {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 5rem;
+    padding-top: 100px;
+    margin-bottom: 11rem;
+    
+ }
+    @media only screen and (max-width: 56.25em) {
+      .blog__row {
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        margin-bottom: 8rem; 
+
+    } 
+    }
+    @media only screen and (max-width: 56.25em) {
+      .blog__row {
+        text-align: center; 
+        
+    } 
+}
+    .blog__row:last-child {
+      margin-bottom: 0;
+     }
+    .blog__row-img-cont {
+      overflow: hidden; 
+    }
+    .blog__row-img {
+      width: 100%;
+      display: block;
+      object-fit: cover; 
+    }
+    .blog__row-content {
+      padding: 2rem 0;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: flex-start; }
+      @media only screen and (max-width: 56.25em) {
+        .blog__row-content {
+          align-items: center;
+         } 
+        }
+      .blog__row-content-title {
+        font-weight: 700;
+        font-size: 2.8rem;
+        margin-bottom: 2rem;
+     }
+        @media only screen and (max-width: 37.5em) {
+          .blog__row-content-title {
+            font-size: 2.4rem; 
+        } 
+        }
+      .blog__row-content-desc {
+        font-size: 1.8rem;
+        color: grey;
+        max-width: 60rem;
+        line-height: 1.7;
+        margin-bottom: 3rem;
+     }
+        @media only screen and (max-width: 37.5em) {
+          .blog__row-content-desc {
+            font-size: 1.7rem;
+         } 
+        }
+
+        .seedetail{
+            padding: 10px;
+            border-radius: 2px;
+            background-color: #952323;
+            color: rgb(246, 245, 245);
+            border:1px solid #952323;
+        }
+
+        .seedetail:hover{
+            background-color: rgb(21, 21, 245);
+            
+        }
